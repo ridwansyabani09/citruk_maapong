@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="assets/logo_citruk.png" type="image/x-icon" />
+  <title>Galeri | CITRUK MA APONG</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav>
+    <div class="nav__logo">
+      <a href="#">Citruk <span>MA APONG</span>.</a>
+    </div>
+    <ul class="nav__links" id="nav-links">
+      <li><a href="index.html">Tentang Kami</a></li>
+      <li><a href="produk.html">Produk</a></li>
+      <li><a href="galeri.html">Galeri</a></li>
+      <li><a href="kontak.html">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <header class="header__container">
+    <h1>Galeri <span></span></h1>
+    <p>Jelajahi galeri kami yang menampilkan proses produksi.</p>
+  </header>
+
+  <section class="gallery">
+    <div class="gallery__item">
+      <img src="assets/gal2.jpg" alt="Gallery Image 1">
+      <div class="gallery__overlay">
+      </div>
+    </div>
+    <div class="gallery__item">
+      <img src="assets/gal3.jpg" alt="Gallery Image 2">
+      <div class="gallery__overlay">
+      </div>
+    </div>
+    <div class="gallery__item">
+      <img src="assets/gal4.jpg" alt="Gallery Image 3">
+      <div class="gallery__overlay">
+      </div>
+    </div>
+    <div class="gallery__item">
+      <img src="assets/gal1.jpg" alt="Gallery Image 4">
+      <div class="gallery__overlay">
+      </div>
+    </div>
+    <!-- Tambahkan item galeri sesuai kebutuhan -->
+  </section>
+
+  <footer>
+    <div class="footer__container">
+      <div class="footer__content">
+        <p>Copyright © CITRUK MA APONG. KKN PPM UNIVERSITAS PERJUANGAN 2024.</p>
+        <div class="social__links">
+          <a href="#"><i class="ri-facebook-fill"></i></a>
+          <a href="#"><i class="ri-instagram-fill"></i></a>
+          <a href="#"><i class="ri-twitter-fill"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+    ScrollReveal().reveal('.gallery__item', {
+      duration: 1000,
+      distance: '50px',
+      easing: 'ease-in-out',
+      interval: 200
+    });
+  </script>
+</body>
+</html>

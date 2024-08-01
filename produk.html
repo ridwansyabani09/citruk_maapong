@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="assets/logo_citruk.png" type="image/x-icon" />
+  <title>Produk</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav__logo">
+          <a href="#">Citruk <span>MA APONG</span>.</a>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="index.html">Tentang Kami</a></li>
+          <li><a href="produk.html">Produk</a></li>
+          <li><a href="galeri.html">Galeri</a></li>
+          <li><a href="#kontak.html">Kontak</a></li>
+        </ul>
+      </nav>
+
+  <header class="header__container">
+    <h1>Produk <span>Kami</span></h1>
+    <p>Berikut Merupakan Produk - produk kami.</p>
+  </header>
+
+  <section class="products">
+    <div class="product">
+      <img src="assets/citrukori.png" alt="Product 1">
+      <div class="product__info">
+        <h2>Citruk Original</h2>
+      </div>
+    </div>
+    <div class="product">
+      <img src="assets/citrukpedas.png" alt="Product 2">
+      <div class="product__info">
+        <h2>Citruk Pedas</h2>
+      </div>
+    </div>
+    <!-- Add more products as needed -->
+  </section>
+
+  <script>
+    function toggleMenu() {
+      document.querySelector('.nav__links').classList.toggle('open');
+    }
+  </script>
+</body>
+</html>
